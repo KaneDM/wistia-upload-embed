@@ -11,4 +11,4 @@ You will be asked to specify a title for the video. The file will be uploaded to
 
 The HTML dump will be copied to the clipboard. Once you've pasted the HTML dump to wherever it's going, press ENTER to copy the YouTube description dump to the clipboard. The script will then close automatically.
 
-There's no error handling in this script, so I highly recommend running it via the provided `tvid.bat` after you fix the file path going to the script. That way, if it crashes, you'll have a chance to read the log before the window closes.
+There's no error handling in this script, so I highly recommend running it via the provided `tvid.bat` file after you fix the file path going to the script. That way, if it crashes, you'll have a chance to read the log before the window closes.
