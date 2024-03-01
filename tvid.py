@@ -64,7 +64,7 @@ a = input('\n\nPress ENTER to continue. . .')
 
 # Asks for the title of the video, then uploads to Wistia under that title
 WistiaApi.configure('ENTER WISTIA API KEY HERE')
-project = 'ENTER WISTIA PROJECT ID# HERE' # ID number for 'Training' project in Wistia
+project = 'ENTER WISTIA PROJECT ID# HERE'
 print('\nUploading video. . .')
 vidupload = WistiaUploadApi.upload_file(vidlatest, project, vidname)
 assert vidupload.created
